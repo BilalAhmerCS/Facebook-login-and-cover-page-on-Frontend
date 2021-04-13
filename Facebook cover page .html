@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html>
+	
+	<head>
+         <title>Facebook Style Homepage Design using HTML and CSS</title>
+		<link type="text/css" rel="stylesheet" href="style.css" />
+		<meta name="Description" content="Facebook Style Homepage Design with Login Form registration for using html and CSS"/>
+                <meta charset="utf-8">
+
+	</head>
+<style>
+body{
+	background-image: url("grid.png");
+	height:750px;
+	
+}
+.fb-header-base{
+	width:100%;
+	height:90px;
+	position:absolute;
+	top:0;
+	left:0;
+	color:white;
+	z-index:7;
+	font-family:verdana;
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+}
+.fb-header{
+	width:100%;
+	height:90px;
+	position:absolute;
+	background:#3d5b99;
+	top:0;
+	left:0;
+	color:white;
+	z-index:7;
+	font-family:verdana;
+	
+}
+#img1{
+	
+	height:auto;
+	width:auto;
+	
+}
+#form1{
+	left:750px;
+	height:60px;
+	width:180px;
+	top:20px;
+	font-family:verdana;
+	font-size:12px;
+}
+#form2{
+	left:940px;
+	height:60px;
+	width:250px;
+	top:20px;
+	font-family:verdana;
+	font-size:12px;
+}
+.submit1{
+	left:1130px;
+	top:35px;
+	background:#5b7bc0;
+	color:white;
+	position:fixed;
+	z-index:20;
+	height:22px;
+	width:50px;
+	cursor:pointer;
+	
+
+	
+}
+.fb-body{
+	position:absolute;
+	left:0px;
+	top:90px;
+	width:100%;
+	height:645px;
+	
+
+}
+#intro1{
+	left:178px;
+	top:20px;
+	font-family:verdana;
+	font-size:20px;
+	color:#142170;
+	height:75px;
+	width:550px;
+}
+#intro2{
+	left:750px;
+	top:20px;
+	font-family:verdana;
+	font-size:30px;
+	color:#000;
+	font-weight:bold;
+	height:75px;
+	width:500px;
+}
+#img2{
+	top:230px;
+	left:178px;
+	width:737px;
+	height:950px;
+}
+#intro3{
+	left:750px;
+	top:70px;
+	font-family:verdana;
+	font-size:18px;
+	color:#000;
+	height:50px;
+	width:300px;
+}
+#form3{
+	top:120px;
+	left:750px;
+	font-family:verdana;
+	font-size:20px;
+	color:#142170;
+	width:450px;
+	height:495px;
+	
+}
+#namebox{
+	width:200px;
+	height:40px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	padding:10px;
+	font-size:18px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+}
+#mailbox{
+	width:408px;
+	height:40px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	padding:10px;
+	font-size:18px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+}
+#r-b{
+	font-size:12px;
+	height:15px;
+	width:15px;
+}
+.button2{
+	width:250px;
+	height:40px;
+	left:750px;
+	top:625px;
+	background:green;
+	font-family:verdana;
+	font-size:18px;
+	color:white;
+	border-radius:5px 5px 5px 5px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+	cursor:pointer;
+	outline:none;
+	
+}
+#intro4{
+	font-family:verdana;
+	font-size:12px;
+	color:gray;
+	
+}
+#intro5{
+	font-family:verdana;
+	font-size:14px;
+	color:gray;
+	
+}
+.fb-body-footer{
+	width:100%;
+	position:absolute;
+	left:0px;
+	height:80px;
+	background:white;
+	top:700px;
+	
+}
+#fb-body-footer-base{
+	width:900px;
+	top:15px;
+	left:200px;
+	color:blue;
+	height:60px;
+}
+
+
+
+
+
+</style>
+
+
+
+	<body>
+		<div class="fb-header-base">
+		</div>
+		<div class="fb-header">
+			<div id="img1" class="fb-header"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPWhYnKdRS22KQQ87wQBypdAimxyTbcB75mDbZpPzNWycp8wxm" /></div>
+			<div id="form1" class="fb-header">Email or Phone<br>
+			<input placeholder="Email" type="mail" name="name" /><br>
+			<input type="checkbox" />keep me logged in</div>
+			
+			<div id="form2" class="fb-header">Password<br>
+			<input placeholder="Password" type="password" name="password" /><br>
+			Forgotten your password?
+			</div>
+			</div>
+		</div>
+		<input type="submit" class="submit1" value="login" />
+		<div class="fb-body">
+			<div id="intro1" class="fb-body">Facebook helps you connect and share with the <br>
+			people in your life.</div>
+			<div id="intro2" class="fb-body">Create an account</div>
+			<div id="img2" class="fb-body"><img src="data:image/jpeg;base64,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" /></div>
+			<div id="intro3" class="fb-body">It's free and always will be.</div>
+			<div id="form3" class="fb-body">
+				<input placeholder="First Name" type="text" id="namebox" name="name1" />
+				<input placeholder="Last Name" type="text" id="namebox"  /> <br>
+				<input placeholder="Emai" type="text" id="mailbox" /><br>
+				<input placeholder="Re-enter email" type="text" id="mailbox"  /><br>
+				<input placeholder="Password" type="password" id="mailbox"  /><br>
+				<input type="date" id="namebox"  /><br><br>
+				<input type="radio" id="r-b" name="sex" value="male" />Male
+				<input type="radio" id="r-b" name="sex" value="female" />Female<br><br>
+				<p id="intro4">By clicking Create an account, you agree to our Terms and that 
+				you have read our Data Policy, including our Cookie Use.</p>
+				<input type="submit" class="button2" value="Create an account" />
+				<br><hr>
+				<p id="intro5">Create a Page for a celebrity, band or business.</p>
+				
+			</div>
+			
+		</div>
+		<div class="fb-body-footer">
+				<div id="fb-body-footer-base" class="fb-body-footer">English (UK)<br><hr>
+				Sign Up	Log In	</div>
+</div>
+</body>
+	
+</html>
+
+
+
+
